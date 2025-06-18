@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shivam Bhardwaj | Unity Game Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Orbitron', sans-serif;
+    }
+    body {
+      background: url('https://www.transparenttextures.com/patterns/black-felt.png') repeat, #0c0c0c;
+      color: #e2e8f0;
+      padding: 2rem;
+      line-height: 1.7;
+      background-attachment: fixed;
+    }
+    h1, h2, h3 {
+      color: #00ffc3;
+      margin-bottom: 0.5rem;
+      text-shadow: 0 0 5px #00ffc3;
+    }
+    header, section, footer {
+      margin-bottom: 3rem;
+      animation: fadeInUp 1s ease forwards;
+      opacity: 0;
+    }
+    header { animation-delay: 0.2s; }
+    section { animation-delay: 0.5s; }
+    nav {
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #00ffc3;
+      font-weight: bold;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    nav a:hover { color: #38bdf8; }
+    .project, .job, .skills-grid div, .education-grid div {
+      background: rgba(30, 41, 59, 0.85);
+      padding: 1rem;
+      border-radius: 0.75rem;
+      margin-top: 1rem;
+      box-shadow: 0 0 15px rgba(0, 255, 195, 0.3);
+      transition: transform 0.3s ease;
+    }
+    .project:hover, .job:hover {
+      transform: scale(1.02);
+    }
+    .skills-grid, .education-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #94a3b8;
+    }
+    a {
+      color: #7dd3fc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    @keyframes fadeInUp {
+      0% {
+        transform: translateY(30px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Shivam Bhardwaj</h1>
+    <p>Unity Team Lead | AR/VR/MR Specialist | Multiplayer Expert</p>
+    <p>📧 shivambhardwaj1811@gmail.com</p>
+    <p>📱 +91-6395747123 </p>
+    <p>🌐 <a href="https://www.linkedin.com/in/er-shivam-b-260bb3231/">LinkedIn</a> | <a href="https://github.com/ShivamBhardwaj1811">GitHub</a></p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a Unity developer with 4+ years of experience and currently the team lead at Abhiwan Technology (Feb 2021 – Present). I specialize in AR (including location-based AR), VR, MR (HoloLens2), multiplayer (Photon, Socket.IO, WebSocket), and blockchain integration in Unity games.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div><strong>Languages:</strong> C#, Javascript, HTML, CSS, JSON</div>
+      <div><strong>Tools:</strong> Unity 3D, DOTween, LeanTween, Editor Scripts, Version control, ScriptableObjects</div>
+      <div><strong>Mobile:</strong> Android, Firebase, Google sign-in, API's, Localization</div>
+      <div><strong>Multiplayer:</strong> Photon PUN2, Fusion, Quantum, Socket.IO, WebSocket</div>
+      <div><strong>Immersive Tech:</strong> AR Foundation, VR, Google Cardboard, MR (HoloLens2)</div>
+      <div><strong>Blockchain:</strong> NFT + Unity, Metamask, Cardano Wallet Integration</div>
+      <div><strong>Deployment:</strong> Android, iOS, WebGL, Oculus, Windows, Mac</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects & Games</h2>
+    <div class="project"><h3>Stickman 2D</h3><p>Fast-paced platformer with fluid mechanics and responsive controls.</p></div>
+    <div class="project"><h3>Sabi Naiza</h3><p>A puzzle game based on sequential logic and level progression.</p></div>
+    <div class="project"><h3>Defence Tower</h3><p>Location-specific interactive tower defense built for a Dubai museum installation.</p></div>
+    <div class="project"><h3>Voxel</h3><p>3D NFT-based car racing with Photon Fusion multiplayer and blockchain.</p></div>
+    <div class="project"><h3>Kitchen Configurator</h3><p>Real-time 3D kitchen design visualizer.</p></div>
+    <div class="project"><h3>Safari Rummy</h3><p>Feature-rich multiplayer Indian rummy game.</p></div>
+    <div class="project"><h3>Spin Wheel</h3><p>Gamified spin wheel with backend prize mapping (freelance project).</p></div>
+    <div class="project"><h3>Roulette Game</h3><p>Classic roulette with dynamic animations and number betting.</p></div>
+    <div class="project"><h3>Snake and Ladder</h3><p>Classic multiplayer board game using Photon PUN2.</p></div>
+    <div class="project"><h3>Betri9</h3><p>Teen Patti card game using Socket.IO with advanced features.</p></div>
+    <div class="project"><h3>Hololens2 Military</h3><p>MR training simulation for Dubai military using HoloLens2.</p></div>
+    <div class="project"><h3>Crazy Panda</h3><p>2D endless runner with power-ups and collectibles.</p></div>
+    <div class="project"><h3>Ultimate Domination</h3><p>Photon Quantum-powered real-time domination strategy game.</p></div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="job">
+      <h3>Team Lead / Unity Developer – Abhiwan Technology</h3>
+      <p><em>Feb 2021 – Present</em></p>
+      <p>Leading Unity development for AR, VR, MR, and multiplayer games.</p>
+    </div>
+    <div class="job">
+      <h3>Freelancer – Direct Clients</h3>
+      <p><em>2019 – 2021</em></p>
+      <p>Delivered AR prototypes, multiplayer games, and spin wheel apps for freelance clients.</p>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="education-grid">
+      <div><strong>BCA</strong> – Subharti University, Meerut (2019 – 2022)</div>
+      <div><strong>MCA</strong> – Mangalayatan University (Pursuing)</div>
+    </div>
+  </section>
+
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <div class="project">
+      <h3>Unity Plugin – Google Spreadsheet</h3>
+      <p>Built a Unity plugin to add/get data from Google Spreadsheet without backend dev support.</p>
+    </div>
+    <div class="project">
+      <h3>Unity Plugin – Cardano Wallets</h3>
+      <p>Created a Unity plugin to find and interact with all Cardano wallets from the browser.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>📧 shivambhardwaj1811@gmail.com</p>
+    <p>📱 +91-6395747123</p>
+    <p>🌐 <a href="https://www.linkedin.com/in/er-shivam-b-260bb3231/">LinkedIn</a> | <a href="https://github.com/ShivamBhardwaj1811">GitHub</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Shivam Bhardwaj. Built with ❤️ as a Unity Game Developer Portfolio.</p>
+  </footer>
+</body>
+</html>
